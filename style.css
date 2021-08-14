@@ -1,0 +1,109 @@
+/* Common-style */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+}
+/* main-section-style */
+.Main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+/* header style */
+
+ header{
+    background-color: #562EFF;
+    height: 94px;
+    width: 1200px;
+    margin-top: 45px;
+    
+}
+.header-logo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.header-logo img{
+    height: 51px;
+    width: 40px;
+    
+}
+.header-logo p{
+    font-size: 24px;
+    color: white;
+    padding-left: 5px;
+}
+.navbar-items{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 190px;
+   
+}
+.nav-bar{
+    align-items: center;
+    display: flex;
+    align-content: center;
+    
+   
+}
+.nav-bar a{
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 5px;
+    color: white;
+    font-size: 16px;
+}
+.profile-image img{
+    width: 40px;
+    padding-left: 40px;
+   
+}
+main{
+    height: 1220px;
+    width: 1200px;
+    background-color: #F3F1FF;
+}
+/* top-players styles */
+.player-blog{
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.section-header h2{
+    font-size: 24px;
+    color: #562EFF;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player-img img{
+    height: 56px;
+    width: 56px;
+}
+.player-name h3{
+    font-size: 18px;
+    padding-left: 20px;
+}
+/* hr tag style */
+hr{
+    width: 807px;
+    border:1px solid #D1D1D1;
+}
