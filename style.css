@@ -64,7 +64,7 @@ body{
    
 }
 main{
-    height: 1220px;
+    height: 1260px;
     width: 1200px;
     background-color: #F3F1FF;
 }
@@ -80,7 +80,7 @@ main{
     font-size: 24px;
     color: #562EFF;
     padding-left: 20px;
-    padding-top: 20px;
+    padding-top: 30px;
 
 }
 .top-players{
@@ -140,18 +140,26 @@ hr{
 }
 /* letest course style */
 .container{
-    display: flex;
+    display:flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    align-items: center;
+    padding-left: 40px;
 }
 .course{
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow:10px 10px 20px #aaaaaa;
     padding-left: 20px;
+    margin-right: 20px;
+    margin-right: 40px;
 }
 .letest-coruse{
     background-color: white;
     border-radius: 5px;
     margin-left: 100px;
     margin-right: 100px;
+    padding-bottom: 30px;
+   
 }
 .course-img img{
     height: 104px;
@@ -168,24 +176,31 @@ hr{
 .reating{
     display: flex;
     justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
 }
 
 .star img{
     height: 20px;
     width: 20px;
 }
+.fas {
+      color: #FFC014;
+}
 .star span{
-    color: #A2A2A2;
+    color: #636262;
 }
 .time{
     border:1px solid white;
     background-color: #f8a18d;
-    height: 20px;
-    width: 90px;
+    height: 27px;
+    width: 100px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left:1px;
 }
 .time img{
     height: 20px;
